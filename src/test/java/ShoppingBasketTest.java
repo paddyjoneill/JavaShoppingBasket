@@ -9,6 +9,7 @@ public class ShoppingBasketTest {
     private Item item;
     private Item wine;
     private IDiscountable discount;
+    private IDiscountable loyaltyCard;
 
     @Before
     public void before(){
@@ -16,6 +17,7 @@ public class ShoppingBasketTest {
         item = new Item("Cheese", 2.50);
         wine = new Item("Red Wine", 25.00);
         discount = new BasketDiscount(10.00,20.00);
+        loyaltyCard = new LoyaltyDiscount("12345678", 2);
     }
 
     @Test
@@ -70,6 +72,15 @@ public class ShoppingBasketTest {
         shoppingBasket.addDiscount(discount);
         assertEquals(1, shoppingBasket.getDiscountCount());
     }
+
+    @Test
+    public void canAddLoyaltyDiscount(){
+        shoppingBasket.addDiscount(loyaltyCard);
+        shoppingBasket.addItem(wine);
+        assertEquals(24.50,shoppingBasket.getFinalTotal(),0.01);
+    }
+
+
 
 
 }
