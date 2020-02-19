@@ -10,6 +10,7 @@ public class ShoppingBasketTest {
     private Item wine;
     private IDiscountable discount;
     private IDiscountable loyaltyCard;
+    private IDiscountable bogofDiscount;
 
     @Before
     public void before(){
@@ -18,6 +19,7 @@ public class ShoppingBasketTest {
         wine = new Item("Red Wine", 25.00);
         discount = new BasketDiscount(10.00,20.00);
         loyaltyCard = new LoyaltyDiscount("12345678", 2);
+        bogofDiscount = new BOGOFDiscount(item);
     }
 
     @Test
@@ -51,7 +53,6 @@ public class ShoppingBasketTest {
         shoppingBasket.addItem(item);
         shoppingBasket.addItem(item);
         assertEquals(5.00, shoppingBasket.getTotalValueBeforeDiscount(),0.01);
-
     }
 
     @Test
@@ -78,6 +79,16 @@ public class ShoppingBasketTest {
         shoppingBasket.addDiscount(loyaltyCard);
         shoppingBasket.addItem(wine);
         assertEquals(24.50,shoppingBasket.getFinalTotal(),0.01);
+    }
+
+    @Test
+    public void canApplyBOGOFDiscount(){
+        shoppingBasket.addDiscount(bogofDiscount);
+        shoppingBasket.addItem(item);
+        shoppingBasket.addItem(item);
+        shoppingBasket.addItem(item);
+        shoppingBasket.addItem(item);
+        assertEquals(5, shoppingBasket.getFinalTotal(),0.01);
     }
 
 

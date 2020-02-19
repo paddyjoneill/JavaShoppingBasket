@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="688dadae-463f-484a-b7da-3ffa8c10cc60" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoyaltyDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoyaltyDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BOGOFDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BOGOFDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.All in lab">
+  <component name="RunManager" selected="JUnit.ShoppingBasketTest.canApplyBOGOFDiscount">
     <configuration name="All in lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,11 +70,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingBasketTest.canApplyTenPercentDiscountOnBasketOverTwenty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Shopping Basket" />
+    <configuration name="ShoppingBasketTest.canApplyBOGOFDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
-      <option name="METHOD_NAME" value="canApplyTenPercentDiscountOnBasketOverTwenty" />
+      <option name="METHOD_NAME" value="canApplyBOGOFDiscount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShoppingBasketTest.canApplyBOGOFDiscount" />
         <item itemvalue="JUnit.All in lab" />
         <item itemvalue="JUnit.ShoppingBasketTest.canAddDiscount" />
         <item itemvalue="JUnit.ShoppingBasketTest.discountsStartsEmpty" />
         <item itemvalue="JUnit.ShoppingBasketTest" />
-        <item itemvalue="JUnit.ShoppingBasketTest.canApplyTenPercentDiscountOnBasketOverTwenty" />
       </list>
     </recent_temporary>
   </component>
@@ -124,46 +125,54 @@
       <option name="project" value="LOCAL" />
       <updated>1582127371875</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="loyalty discount working">
+      <created>1582127895945</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582127895945</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git init" />
     <MESSAGE value="first discount working" />
-    <option name="LAST_COMMIT_MESSAGE" value="first discount working" />
+    <MESSAGE value="loyalty discount working" />
+    <option name="LAST_COMMIT_MESSAGE" value="loyalty discount working" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1582127616063">
+    <state x="453" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1582128129899">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="453" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1582127616063" />
+    <state x="453" y="119" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777@0.23.1280.777" timestamp="1582128129899" />
     <state x="406" y="278" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582123076060">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="406" y="278" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1280.777@0.23.1280.777" timestamp="1582123076060" />
-    <state x="261" y="23" key="CommitChangelistDialog2" timestamp="1582127371457">
+    <state x="261" y="23" key="CommitChangelistDialog2" timestamp="1582127895692">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="261" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1582127371457" />
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1582127873279">
+    <state x="261" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1582127895692" />
+    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1582128690983">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1582127873279" />
-    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1582127873279">
+    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1582128690983" />
+    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1582128690981">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1582127873279" />
-    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1582127873278">
+    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1582128690981" />
+    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1582128690981">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1582127873278" />
-    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1582127873279">
+    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1582128690981" />
+    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1582128690982">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1582127873279" />
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1582127382064">
+    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1582128690982" />
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1582127903680">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1582127382064" />
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1582127903680" />
   </component>
 </project>
