@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="688dadae-463f-484a-b7da-3ffa8c10cc60" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Static_and_Dynamic_Task_A/card.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Static_and_Dynamic_Task_A/card.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Static_and_Dynamic_Task_A/card_game.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Static_and_Dynamic_Task_A/card_game.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Static_and_Dynamic_Task_A/testing_task_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Static_and_Dynamic_Task_A/testing_task_1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week_01/weekend_homework/start_point/pet_shop.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week_01/weekend_homework/start_point/pet_shop.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week_03/day_2/homework_CRUD_quiz/hw_CRUD_quiz.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week_03/day_2/homework_CRUD_quiz/hw_CRUD_quiz.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week_06/day_4/events/events.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week_06/day_4/events/events.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week_07/day_2/1_fetch_promises_and_lifecycle_hooks/start_code/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week_07/day_2/1_fetch_promises_and_lifecycle_hooks/start_code/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week_11/day_3/cc_towers/cc_towers_solution/CodeClanTowers.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day_2/polymorphism_lab/polymorphism_lab.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../day_2/polymorphism_lab/polymorphism_lab.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasketDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasketDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BasketDiscount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasketDiscount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ShoppingBasket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ShoppingBasket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -49,12 +49,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingBasketTest.canAddDiscount">
-    <configuration name="ItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Shopping Basket" />
+  <component name="RunManager" selected="JUnit.All in lab">
+    <configuration name="All in lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ItemTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in lab" />
         <item itemvalue="JUnit.ShoppingBasketTest.canAddDiscount" />
         <item itemvalue="JUnit.ShoppingBasketTest.discountsStartsEmpty" />
         <item itemvalue="JUnit.ShoppingBasketTest" />
         <item itemvalue="JUnit.ShoppingBasketTest.canApplyTenPercentDiscountOnBasketOverTwenty" />
-        <item itemvalue="JUnit.ItemTest" />
       </list>
     </recent_temporary>
   </component>
@@ -146,22 +145,22 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="261" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1582125021550" />
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1582125083685">
+    <state width="1218" height="184" key="GridCell.Tab.0.bottom" timestamp="1582127331394">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1582125083685" />
-    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1582125083684">
+    <state width="1218" height="184" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1582127331394" />
+    <state width="1218" height="184" key="GridCell.Tab.0.center" timestamp="1582127331393">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1582125083684" />
-    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1582125083684">
+    <state width="1218" height="184" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1582127331393" />
+    <state width="1218" height="184" key="GridCell.Tab.0.left" timestamp="1582127331392">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1582125083684" />
-    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1582125083684">
+    <state width="1218" height="184" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1582127331392" />
+    <state width="1218" height="184" key="GridCell.Tab.0.right" timestamp="1582127331393">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1582125083684" />
+    <state width="1218" height="184" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1582127331393" />
     <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1582125034988">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

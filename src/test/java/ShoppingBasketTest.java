@@ -8,12 +8,14 @@ public class ShoppingBasketTest {
     private ShoppingBasket shoppingBasket;
     private Item item;
     private Item wine;
+    private IDiscountable discount;
 
     @Before
     public void before(){
         shoppingBasket = new ShoppingBasket();
         item = new Item("Cheese", 2.50);
         wine = new Item("Red Wine", 25.00);
+        discount = new BasketDiscount(10.00,20.00);
     }
 
     @Test
@@ -53,6 +55,7 @@ public class ShoppingBasketTest {
     @Test
     public void canApplyTenPercentDiscountOnBasketOverTwenty(){
         shoppingBasket.addItem(wine);
+        shoppingBasket.addDiscount(discount);
         assertEquals(22.50, shoppingBasket.getFinalTotal(),0.01);
     }
 
